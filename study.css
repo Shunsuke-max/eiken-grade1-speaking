@@ -1,0 +1,19 @@
+/* Supplementary study controls; original page styling remains unchanged. */
+.study-panel{border:1px solid #cfe0dc;background:#f0f7f5;border-radius:10px;padding:18px 20px;margin:0 0 28px}
+.study-panel-title{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:7px 18px}
+.study-panel-title strong{font-size:16px}
+#study-summary{color:#225e54;font-size:13px;font-weight:600}
+.study-panel-controls{display:flex;align-items:center;flex-wrap:wrap;gap:9px;margin-top:14px}
+.study-panel-controls label{font-size:13px;color:#445666}
+#study-status-filter{width:auto;min-width:140px}
+#study-review-random:disabled{opacity:.5;cursor:not-allowed}
+.study-note{color:#5a6875;font-size:12px;line-height:1.65;margin:12px 0 0}
+.study-card-actions{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}
+.study-card-actions button{font-size:12px;padding:7px 10px}
+.study-card-actions button:disabled{opacity:.5;cursor:not-allowed}
+.study-card-actions .study-selected{background:#156d61;color:white;border-color:#156d61}
+.study-recall-mode h3,.study-recall-mode .english,.study-recall-mode .question,.study-recall-mode .usage{display:none}
+.study-recall-mode .translation{margin-top:0}
+.study-card-actions button:focus-visible,.study-panel-controls button:focus-visible,.study-panel-controls select:focus-visible{outline:3px solid #156d61;outline-offset:3px}
+@media(max-width:680px){.study-panel{padding:14px 15px}.study-panel-title{align-items:flex-start}.study-card-actions{gap:7px}.study-card-actions button{flex:1 1 auto}}
+@media print{.study-panel,.study-card-actions{display:none!important}.study-recall-mode h3,.study-recall-mode .english,.study-recall-mode .question,.study-recall-mode .usage{display:block}}
