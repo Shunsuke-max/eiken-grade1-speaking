@@ -35,10 +35,6 @@ python3 -m http.server 8000
 
 このリポジトリは英検の**非公式学習教材**であり、実施団体との提携・承認関係はありません。
 
-## License
+## Excel Workbook
 
-現時点ではライセンスを指定していません。第三者による再利用を許可したい場合は、公開前に用途に合ったライセンスを追加してください。
-
-## Optional workbook
-
-`resources/eiken_grade1_300phrases_900examples.xlsx` には、同じ900例文を練習状況つきで管理できるExcel版を収録しています。Webサイトの動作には不要なので、不要なら `resources/` を削除しても問題ありません。
+`eiken_grade1_300phrases_900examples.xlsx` には、同じ900例文を練習状況つきで管理できるExcel版を収録しています。Webサイト（`index.html`）単体の動作には不要です。
